@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.0,
-          "height": 2.0,
-          "width": 2.0
+          "drill": 0.0,
+          "height": 1.5,
+          "width": 0.7
         },
         "silk_line_width": 0.16,
         "silk_text_italic": false,
@@ -60,43 +60,47 @@
       ],
       "drc_exclusions": [
         [
-          "copper_edge_clearance|83162500|21797500|566dd5a5-e28d-4906-8fda-05122ec3893c|d33813f3-d9b5-44d4-ad67-6a273e0e7349",
+          "copper_edge_clearance|85150000|78162500|566dd5a5-e28d-4906-8fda-05122ec3893c|891a6b70-5bed-4038-bdd8-496d71ff83bb",
           ""
         ],
         [
-          "copper_edge_clearance|85652500|21797500|566dd5a5-e28d-4906-8fda-05122ec3893c|57a5f8ae-9f4a-4dfa-adb1-6c0c49aee53c",
+          "courtyards_overlap|95470000|25067500|3fd30219-dcf6-460c-bdac-0bac6711efe5|fb49c1fb-2fd1-4f02-a505-489b1a12e98d",
           ""
         ],
         [
-          "copper_edge_clearance|96000000|49650000|566dd5a5-e28d-4906-8fda-05122ec3893c|742f372c-10b3-4000-afa0-e5b2dffb99ae",
+          "items_not_allowed|76976250|49175000|709aec97-95fb-4b4a-95a9-4c701b377cd9|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "copper_edge_clearance|96000000|50750000|566dd5a5-e28d-4906-8fda-05122ec3893c|ff0ca35a-fd68-40af-9d21-43d47be73bc8",
+          "items_not_allowed|79608750|49235000|44cfffe8-182a-46c6-8760-fb89aafa1e5c|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "copper_edge_clearance|96000000|51850000|566dd5a5-e28d-4906-8fda-05122ec3893c|301b7305-0759-4ae6-882e-2c04de41c324",
+          "silk_overlap|92509524|52479819|44e7d293-0bec-4e83-a40f-7ce986094828|5a579469-7d0e-4705-bfd9-b4b92a9d9ef6",
           ""
         ],
         [
-          "copper_edge_clearance|96000000|52950000|566dd5a5-e28d-4906-8fda-05122ec3893c|625b69b1-a629-46b9-8011-d60c1399ccb3",
+          "starved_thermal|78160000|74899250|c5f1021a-528c-4927-a061-f9e07a81ebbe|241d7abe-1318-4a61-8200-07b2322e1e3f|B.Cu",
           ""
         ],
         [
-          "copper_edge_clearance|96000000|54050000|566dd5a5-e28d-4906-8fda-05122ec3893c|72d6722f-8a4f-48e3-87fd-3e1b7651e91c",
+          "starved_thermal|95470000|67920000|c5f1021a-528c-4927-a061-f9e07a81ebbe|65ba2eba-ad6d-4940-b692-dbd68c8f7db9|B.Cu",
           ""
         ],
         [
-          "copper_edge_clearance|96000000|55150000|566dd5a5-e28d-4906-8fda-05122ec3893c|e9bea257-6c27-4c6b-8e1d-dbebac3311bb",
+          "text_thickness|94200000|52025000|44e7d293-0bec-4e83-a40f-7ce986094828|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "copper_edge_clearance|96000000|56250000|566dd5a5-e28d-4906-8fda-05122ec3893c|f7a30d92-6b4b-44a4-9a0a-4a3dd0231d02",
+          "text_thickness|94200000|53250000|5a579469-7d0e-4705-bfd9-b4b92a9d9ef6|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "copper_edge_clearance|96000000|57350000|566dd5a5-e28d-4906-8fda-05122ec3893c|380260ac-869c-47e3-99c7-d39ff85151ac",
+          "unconnected_items|81775000|39600000|F.Cu|4|66d1fb5b-6ec7-41b3-8bfe-ddb886c7a6d9|d4b1eeee-f486-4345-a3fa-23a2943e7389",
+          ""
+        ],
+        [
+          "unconnected_items|94987500|59125000|F.Cu|4|2714a7b5-180e-4109-8c0d-ea5c0229ae15|a898652b-d161-4221-9afc-a0d2ea11970b",
           ""
         ]
       ],
@@ -180,7 +184,7 @@
         "min_track_width": 0.1,
         "min_via_annular_width": 0.0,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -233,6 +237,7 @@
         0.15,
         0.2,
         0.3,
+        0.3473,
         0.4,
         0.5
       ],
@@ -511,7 +516,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SIMCOM7080G.kicad_pro",
+    "filename": "GPS_proyect_SIM33ELA.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -595,31 +600,31 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -764,6 +769,54 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "part number",
+          "name": "part number",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "price",
+          "name": "price",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "manufacturer",
+          "name": "manufacturer",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Link",
+          "name": "Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "link",
+          "name": "link",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Alternativa",
+          "name": "Alternativa",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "link alternativa",
+          "name": "link alternativa",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -771,7 +824,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "LCSC Part"
     },
     "connection_grid_size": 50.0,
     "drawing": {
