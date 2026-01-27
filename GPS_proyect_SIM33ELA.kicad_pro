@@ -64,7 +64,7 @@
           ""
         ],
         [
-          "courtyards_overlap|95470000|25067500|3fd30219-dcf6-460c-bdac-0bac6711efe5|fb49c1fb-2fd1-4f02-a505-489b1a12e98d",
+          "courtyards_overlap|95452359|25017500|3fd30219-dcf6-460c-bdac-0bac6711efe5|fb49c1fb-2fd1-4f02-a505-489b1a12e98d",
           ""
         ],
         [
@@ -76,31 +76,15 @@
           ""
         ],
         [
-          "silk_overlap|92509524|52479819|44e7d293-0bec-4e83-a40f-7ce986094828|5a579469-7d0e-4705-bfd9-b4b92a9d9ef6",
-          ""
-        ],
-        [
           "starved_thermal|78160000|74899250|c5f1021a-528c-4927-a061-f9e07a81ebbe|241d7abe-1318-4a61-8200-07b2322e1e3f|B.Cu",
           ""
         ],
         [
+          "starved_thermal|79007359|40162500|c5f1021a-528c-4927-a061-f9e07a81ebbe|c23187f3-67f2-4adb-a2cc-a52f08c50307|F.Cu",
+          ""
+        ],
+        [
           "starved_thermal|95470000|67920000|c5f1021a-528c-4927-a061-f9e07a81ebbe|65ba2eba-ad6d-4940-b692-dbd68c8f7db9|B.Cu",
-          ""
-        ],
-        [
-          "text_thickness|94200000|52025000|44e7d293-0bec-4e83-a40f-7ce986094828|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "text_thickness|94200000|53250000|5a579469-7d0e-4705-bfd9-b4b92a9d9ef6|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "unconnected_items|81775000|39600000|F.Cu|4|66d1fb5b-6ec7-41b3-8bfe-ddb886c7a6d9|d4b1eeee-f486-4345-a3fa-23a2943e7389",
-          ""
-        ],
-        [
-          "unconnected_items|94987500|59125000|F.Cu|4|2714a7b5-180e-4109-8c0d-ea5c0229ae15|a898652b-d161-4221-9afc-a0d2ea11970b",
           ""
         ]
       ],
@@ -239,7 +223,8 @@
         0.3,
         0.3473,
         0.4,
-        0.5
+        0.5,
+        0.87
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -796,12 +781,6 @@
         },
         {
           "group_by": false,
-          "label": "Link",
-          "name": "Link",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "link",
           "name": "link",
           "show": true
@@ -810,13 +789,13 @@
           "group_by": false,
           "label": "Alternativa",
           "name": "Alternativa",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "link alternativa",
           "name": "link alternativa",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
