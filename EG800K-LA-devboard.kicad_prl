@@ -1,31 +1,31 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 7,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
-      "images": 0.6,
+      "images": 1.0,
       "pads": 1.0,
-      "shapes": 1.0,
+      "shapes": 0.9800000190734863,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.5600000023841858
+      "zones": 0.27000001072883606
     },
     "selection_filter": {
-      "dimensions": true,
-      "footprints": true,
-      "graphics": true,
-      "keepouts": true,
-      "lockedItems": false,
-      "otherItems": true,
-      "pads": true,
-      "text": true,
-      "tracks": true,
-      "vias": true,
+      "dimensions": false,
+      "footprints": false,
+      "graphics": false,
+      "keepouts": false,
+      "lockedItems": true,
+      "otherItems": false,
+      "pads": false,
+      "text": false,
+      "tracks": false,
+      "vias": false,
       "zones": true
     },
     "visible_items": [
@@ -49,7 +49,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_55555555_57555575",
+    "visible_layers": "00000000_00000000_55555555_57555ff5",
     "zone_display_mode": 0
   },
   "git": {
@@ -58,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "GPS_proyect_SIM33ELA.kicad_prl",
+    "filename": "EG800K-LA-devboard.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -102,7 +102,7 @@
       58,
       58,
       58,
-      58
+      673
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

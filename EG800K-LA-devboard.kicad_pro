@@ -41,11 +41,11 @@
           "height": 1.5,
           "width": 0.7
         },
-        "silk_line_width": 0.16,
+        "silk_line_width": 0.15,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.1,
+        "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 0.15
@@ -58,36 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "copper_edge_clearance|85150000|78162500|566dd5a5-e28d-4906-8fda-05122ec3893c|891a6b70-5bed-4038-bdd8-496d71ff83bb",
-          ""
-        ],
-        [
-          "courtyards_overlap|95452359|25017500|3fd30219-dcf6-460c-bdac-0bac6711efe5|fb49c1fb-2fd1-4f02-a505-489b1a12e98d",
-          ""
-        ],
-        [
-          "items_not_allowed|76976250|49175000|709aec97-95fb-4b4a-95a9-4c701b377cd9|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "items_not_allowed|79608750|49235000|44cfffe8-182a-46c6-8760-fb89aafa1e5c|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "starved_thermal|78160000|74899250|c5f1021a-528c-4927-a061-f9e07a81ebbe|241d7abe-1318-4a61-8200-07b2322e1e3f|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|79007359|40162500|c5f1021a-528c-4927-a061-f9e07a81ebbe|c23187f3-67f2-4adb-a2cc-a52f08c50307|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|95470000|67920000|c5f1021a-528c-4927-a061-f9e07a81ebbe|65ba2eba-ad6d-4940-b692-dbd68c8f7db9|B.Cu",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -161,9 +132,9 @@
         "min_microvia_diameter": 0.1,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.15,
-        "min_text_height": 0.1,
-        "min_text_thickness": 0.16,
+        "min_silk_clearance": 0.0,
+        "min_text_height": 1.0,
+        "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.1,
         "min_via_annular_width": 0.0,
@@ -219,6 +190,8 @@
         0.0,
         0.1184,
         0.15,
+        0.1554,
+        0.1556,
         0.2,
         0.3,
         0.3473,
@@ -501,7 +474,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "GPS_proyect_SIM33ELA.kicad_pro",
+    "filename": "EG800K-LA-devboard.kicad_pro",
     "version": 3
   },
   "net_settings": {
