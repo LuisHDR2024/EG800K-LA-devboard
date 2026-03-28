@@ -1175,478 +1175,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Filter:Choke_CommonMode_FerriteCore_1243"
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FL"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Choke_CommonMode_FerriteCore_1243"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -8.255 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic common-mode choke, ferrite core, 1243 pin order"
-				(at 4.064 -0.762 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "signal line filter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Choke_CommonMode_FerriteCore_1243_0_1"
-				(circle
-					(center -2.794 1.27)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.794 0.381) (xy -2.286 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.794 -0.381) (xy -2.286 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.794 -1.27)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.032) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.032) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.524 2.032)
-					(mid -2.032 1.5262)
-					(end -2.54 2.032)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 -2.032)
-					(mid -2.032 -1.5262)
-					(end -1.524 -2.032)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 0.381) (xy -1.27 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.381) (xy -1.27 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.508 2.032)
-					(mid -1.016 1.5262)
-					(end -1.524 2.032)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.524 -2.032)
-					(mid -1.016 -1.5262)
-					(end -0.508 -2.032)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 0.381) (xy -0.254 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 -0.381) (xy -0.254 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.508 2.032)
-					(mid 0 1.5262)
-					(end -0.508 2.032)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.508 -2.032)
-					(mid 0 -1.5262)
-					(end 0.508 -2.032)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0.381) (xy 0.762 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -0.381) (xy 0.762 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.524 2.032)
-					(mid 1.016 1.5262)
-					(end 0.508 2.032)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.508 -2.032)
-					(mid 1.016 -1.5262)
-					(end 1.524 -2.032)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0.381) (xy 1.778 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -0.381) (xy 1.778 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 2.032)
-					(mid 2.032 1.5262)
-					(end 1.524 2.032)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.524 -2.032)
-					(mid 2.032 -1.5262)
-					(end 2.54 -2.032)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0.381) (xy 2.794 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -0.381) (xy 2.794 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.032) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Choke_CommonMode_FerriteCore_1243_1_1"
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Power_Protection:ESDA6V1SC5"
 			(pin_names
 				(hide yes)
@@ -5801,304 +5329,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:BSS138"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BSS138"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "N-Channel MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BSS138_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BSS138_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -6366,19 +5596,6 @@
 		(uuid 3e23b8ab-4d12-4589-858c-04e8be91103b)
 	)
 	(rectangle
-		(start 215.9 155.575)
-		(end 282.575 203.2)
-		(stroke
-			(width 0)
-			(type dash)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 4aeb8b1e-8f7f-4dce-a08c-d000bc7f4b5e)
-	)
-	(rectangle
 		(start 199.39 110.49)
 		(end 283.21 152.4)
 		(stroke
@@ -6429,36 +5646,6 @@
 		)
 		(uuid "07a7db12-3f22-4526-a8bc-4d35989a587b")
 	)
-	(text "Hight volt"
-		(exclude_from_sim no)
-		(at 261.112 174.498 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-		)
-		(uuid "1ff0d862-ad2c-4c64-9ba9-9175752ce0e6")
-	)
-	(text "GPIO"
-		(exclude_from_sim no)
-		(at 262.128 195.072 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-		)
-		(uuid "247e1cb3-d9ef-4bc6-950c-1a09e01e9065")
-	)
-	(text "Low volt"
-		(exclude_from_sim no)
-		(at 237.744 162.052 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-		)
-		(uuid "38a2a7a1-021a-43f0-9309-56cc285b2185")
-	)
 	(text "4.2v - 3.7v"
 		(exclude_from_sim no)
 		(at 261.62 118.11 0)
@@ -6468,36 +5655,6 @@
 			)
 		)
 		(uuid "4ac0d460-ed86-40c6-b1ba-8677aa4106bb")
-	)
-	(text "Hight volt"
-		(exclude_from_sim no)
-		(at 261.112 187.198 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-		)
-		(uuid "62b21b31-f544-4346-ac5b-96c68cac2d72")
-	)
-	(text "Low volt"
-		(exclude_from_sim no)
-		(at 237.744 187.452 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-		)
-		(uuid "7ae2cb37-041e-4388-a510-0a193b93b600")
-	)
-	(text "Hight volt"
-		(exclude_from_sim no)
-		(at 261.112 161.798 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-		)
-		(uuid "87c91454-9290-4591-b335-3d2243b653b1")
 	)
 	(text "Control Unit"
 		(exclude_from_sim no)
@@ -6511,26 +5668,6 @@
 		)
 		(uuid "98914075-ad10-4af3-b945-2930a7e9f824")
 	)
-	(text "GPIO"
-		(exclude_from_sim no)
-		(at 262.128 182.372 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-		)
-		(uuid "a1b0bbda-1bf8-4b13-8806-05947a16aeb1")
-	)
-	(text "GPIO"
-		(exclude_from_sim no)
-		(at 236.728 195.072 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-		)
-		(uuid "a631e333-7b9b-4e9b-a7dc-37ee30c8edaa")
-	)
 	(text "PIN de notificacion\nSMS, call, MQTT\nsleep mode"
 		(exclude_from_sim no)
 		(at 83.82 63.754 0)
@@ -6541,26 +5678,6 @@
 			(justify left)
 		)
 		(uuid "adbdcb50-99d6-4528-96dd-d8ec78b5f9d4")
-	)
-	(text "GPIO"
-		(exclude_from_sim no)
-		(at 236.728 169.672 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-		)
-		(uuid "b03cf415-030a-461d-ad76-bbc2e4eadd8d")
-	)
-	(text "GPIO"
-		(exclude_from_sim no)
-		(at 236.728 182.372 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-		)
-		(uuid "b68e7328-b171-4469-a0ff-8f38bb03b6af")
 	)
 	(text "Microcontroller Unit\n"
 		(exclude_from_sim no)
@@ -6573,17 +5690,6 @@
 			(justify left)
 		)
 		(uuid "e2d9cac0-00c2-4632-b627-a199e75cf3c5")
-	)
-	(text "Level shift block EG800K"
-		(exclude_from_sim no)
-		(at 228.6 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "e9c16302-2044-4125-aac3-7b7278aa1735")
 	)
 	(text "Power/BAT regulation/out"
 		(exclude_from_sim no)
@@ -6609,26 +5715,6 @@
 		)
 		(uuid "f6554f67-0ce3-4197-88a7-281a269979e2")
 	)
-	(text "Low volt"
-		(exclude_from_sim no)
-		(at 237.744 174.752 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-		)
-		(uuid "f8d7781b-e702-49b1-a222-7156df1d2148")
-	)
-	(text "GPIO"
-		(exclude_from_sim no)
-		(at 262.128 169.672 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-		)
-		(uuid "fd0cb48c-4bc2-4fca-b454-31790a41cc8b")
-	)
 	(junction
 		(at 31.496 40.894)
 		(diameter 0)
@@ -6652,12 +5738,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ad02866-56a3-43a7-bb7e-2492eb2a0a6c")
-	)
-	(junction
-		(at 240.03 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0b4e0bd0-5b34-4780-89d8-86f2aa9ddff1")
 	)
 	(junction
 		(at 43.942 279.908)
@@ -6708,12 +5788,6 @@
 		(uuid "239a7253-b498-4f54-ab43-c2121ca91851")
 	)
 	(junction
-		(at 240.03 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "242cc8a8-8430-4ad9-9f3f-dba83723f646")
-	)
-	(junction
 		(at 228.6 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6730,12 +5804,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31c632c0-4276-4bd0-89a4-0d0de1793e1f")
-	)
-	(junction
-		(at 240.03 195.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32b367e0-6a0c-44fa-a8e9-6957a2bd0b59")
 	)
 	(junction
 		(at 269.24 76.454)
@@ -6768,12 +5836,6 @@
 		(uuid "50780bbe-aba2-453e-9739-5c66ab64c28f")
 	)
 	(junction
-		(at 240.03 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50b48e4d-4594-4418-9366-d302f5782768")
-	)
-	(junction
 		(at 240.538 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6796,12 +5858,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f7ff284-6550-4fcb-8f94-315fa380dd00")
-	)
-	(junction
-		(at 240.03 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "66ca6513-4ce2-45c3-a220-bd08db910b32")
 	)
 	(junction
 		(at 274.32 27.94)
@@ -6852,12 +5908,6 @@
 		(uuid "8cd5f088-0aad-4fd0-be4d-879aba39501a")
 	)
 	(junction
-		(at 256.54 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9871c578-3b43-4563-8d7c-e03d1f5490ef")
-	)
-	(junction
 		(at 276.606 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6868,12 +5918,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a13d795f-b41c-46e5-93a5-5d2e20c02cbf")
-	)
-	(junction
-		(at 256.54 195.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a96f4f08-2963-4921-83bb-6bc2ee1dbaef")
 	)
 	(junction
 		(at 261.62 76.454)
@@ -6892,12 +5936,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b056200e-5e08-4b8d-ab0b-b7edf47c2856")
-	)
-	(junction
-		(at 256.54 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8141063-0c23-4269-8ebd-2fb9a46a8a33")
 	)
 	(junction
 		(at 258.064 140.97)
@@ -6958,12 +5996,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df981cf7-b758-455b-a6d3-7a66cd991909")
-	)
-	(junction
-		(at 240.03 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2781c35-c2f4-46ac-b495-6da07ce1c5b1")
 	)
 	(junction
 		(at 269.24 27.94)
@@ -7111,16 +6143,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 168.91) (xy 240.03 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "060a88b0-acfa-4ea1-8870-00f282b4271c")
-	)
-	(wire
-		(pts
 			(xy 248.92 27.94) (xy 248.92 28.956)
 		)
 		(stroke
@@ -7258,36 +6280,6 @@
 			(type default)
 		)
 		(uuid "1428d97f-2205-4476-9ca3-898999c13c03")
-	)
-	(wire
-		(pts
-			(xy 237.998 123.19) (xy 240.538 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14a02ff5-10c9-4109-983d-99520fac42b8")
-	)
-	(wire
-		(pts
-			(xy 216.408 175.26) (xy 240.03 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17090ef5-5945-464e-8ff1-6e7acc776d1b")
-	)
-	(wire
-		(pts
-			(xy 255.27 195.58) (xy 256.54 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "176ce4ee-071c-4f7a-a4b0-ddee255ab641")
 	)
 	(wire
 		(pts
@@ -7651,26 +6643,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 182.88) (xy 280.67 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "368cdf8c-f010-4b06-94a0-dd06de11913e")
-	)
-	(wire
-		(pts
-			(xy 240.03 182.88) (xy 245.11 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "374f6779-2ca2-439d-8073-90020d76e576")
-	)
-	(wire
-		(pts
 			(xy 262.128 140.97) (xy 262.128 143.51)
 		)
 		(stroke
@@ -7691,16 +6663,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 170.18) (xy 245.11 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38297fe1-bf82-455c-81b0-d9120727660d")
-	)
-	(wire
-		(pts
 			(xy 251.46 76.454) (xy 248.92 76.454)
 		)
 		(stroke
@@ -7708,16 +6670,6 @@
 			(type default)
 		)
 		(uuid "38d3764c-92b8-480d-9285-a1e65d8a21aa")
-	)
-	(wire
-		(pts
-			(xy 216.408 170.18) (xy 240.03 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3995b0cf-e735-467d-957e-4b4d88cdb4a0")
 	)
 	(wire
 		(pts
@@ -7741,16 +6693,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 187.96) (xy 240.03 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b8d601b-b01a-48e0-968d-f582d2ac30f3")
-	)
-	(wire
-		(pts
 			(xy 269.24 27.94) (xy 269.24 28.956)
 		)
 		(stroke
@@ -7758,16 +6700,6 @@
 			(type default)
 		)
 		(uuid "3be1baae-dd33-41b8-b573-0c80c89db33d")
-	)
-	(wire
-		(pts
-			(xy 216.408 187.96) (xy 240.03 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d1521f6-cd27-4025-aa07-8da78ffc73e9")
 	)
 	(wire
 		(pts
@@ -7821,16 +6753,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 194.31) (xy 240.03 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46147dfb-6434-4c75-a0de-825592118d4e")
-	)
-	(wire
-		(pts
 			(xy 170.434 35.052) (xy 151.384 35.052)
 		)
 		(stroke
@@ -7868,16 +6790,6 @@
 			(type default)
 		)
 		(uuid "4bb3ae62-966e-412c-97c1-85053647d162")
-	)
-	(wire
-		(pts
-			(xy 216.408 162.56) (xy 240.03 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4da90294-5877-41cb-b20c-c906dd3c2530")
 	)
 	(wire
 		(pts
@@ -7991,6 +6903,16 @@
 	)
 	(wire
 		(pts
+			(xy 192.278 169.418) (xy 168.148 169.418)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "589b948b-faab-4da3-a4c2-d798a2015044")
+	)
+	(wire
+		(pts
 			(xy 276.86 76.454) (xy 274.32 76.454)
 		)
 		(stroke
@@ -8038,16 +6960,6 @@
 			(type default)
 		)
 		(uuid "5d31682c-2fde-45be-b959-15caab9a2600")
-	)
-	(wire
-		(pts
-			(xy 256.54 187.96) (xy 280.67 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5de10ba4-51ea-4211-9ec4-73e7e1c890b6")
 	)
 	(wire
 		(pts
@@ -8121,6 +7033,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.148 174.498) (xy 192.278 174.498)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61c25134-8b1e-440c-9af1-a8b62b6b8ff1")
+	)
+	(wire
+		(pts
 			(xy 259.334 76.454) (xy 259.08 76.454)
 		)
 		(stroke
@@ -8178,6 +7100,16 @@
 			(type default)
 		)
 		(uuid "68a14bb4-2999-41c4-9910-72e9a3a6f769")
+	)
+	(wire
+		(pts
+			(xy 95.504 179.07) (xy 105.664 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a625dec-fb9c-479c-9192-5af85b9452b1")
 	)
 	(wire
 		(pts
@@ -8271,16 +7203,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 175.26) (xy 240.03 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "721e31cc-7809-4eb8-979d-78afa9a6a4b9")
-	)
-	(wire
-		(pts
 			(xy 147.32 123.444) (xy 150.114 123.444)
 		)
 		(stroke
@@ -8301,7 +7223,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 123.19) (xy 232.918 123.19)
+			(xy 228.6 123.19) (xy 240.538 123.19)
 		)
 		(stroke
 			(width 0)
@@ -8348,26 +7270,6 @@
 			(type default)
 		)
 		(uuid "7a18eaac-9068-4627-9e71-6cf049090bdf")
-	)
-	(wire
-		(pts
-			(xy 256.54 194.31) (xy 256.54 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c235211-f71d-4215-a106-123793933ceb")
-	)
-	(wire
-		(pts
-			(xy 216.408 195.58) (xy 240.03 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c7b3192-2530-4692-884b-a120effa3747")
 	)
 	(wire
 		(pts
@@ -8521,16 +7423,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 170.18) (xy 280.67 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93cd78c1-8ddd-4048-a92c-e036ca625acc")
-	)
-	(wire
-		(pts
 			(xy 248.92 76.454) (xy 248.92 74.676)
 		)
 		(stroke
@@ -8558,16 +7450,6 @@
 			(type default)
 		)
 		(uuid "98c12cc6-a75e-4826-915e-0c66a8a22cc4")
-	)
-	(wire
-		(pts
-			(xy 240.03 187.96) (xy 250.19 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "991ff14c-2887-4a54-88b5-d6007f5032b9")
 	)
 	(wire
 		(pts
@@ -8621,26 +7503,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 181.61) (xy 256.54 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a267c487-78b6-457d-a339-a0f10f4bb31a")
-	)
-	(wire
-		(pts
-			(xy 240.03 195.58) (xy 245.11 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a36b2d28-6be3-40bb-86e6-98ba79014020")
-	)
-	(wire
-		(pts
 			(xy 39.624 293.878) (xy 39.624 295.656)
 		)
 		(stroke
@@ -8648,16 +7510,6 @@
 			(type default)
 		)
 		(uuid "a389022d-ff60-499e-9ac0-24ac10608e87")
-	)
-	(wire
-		(pts
-			(xy 168.148 177.038) (xy 192.278 177.038)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a509d9af-7e25-4cf5-aafc-581a61a73e3a")
 	)
 	(wire
 		(pts
@@ -8761,16 +7613,6 @@
 	)
 	(wire
 		(pts
-			(xy 216.408 182.88) (xy 240.03 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2ddf6a8-6525-4063-8a00-def3708d0ce8")
-	)
-	(wire
-		(pts
 			(xy 276.86 76.454) (xy 276.86 74.676)
 		)
 		(stroke
@@ -8778,16 +7620,6 @@
 			(type default)
 		)
 		(uuid "b456fd5d-6261-4b84-89b5-b6d14a7d7fde")
-	)
-	(wire
-		(pts
-			(xy 240.03 175.26) (xy 250.19 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b60410cc-187a-42ca-b1fb-ecd4d8b8102f")
 	)
 	(wire
 		(pts
@@ -8831,16 +7663,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 182.88) (xy 256.54 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8efa0dd-6a34-44a3-8ae2-df696d0283a3")
-	)
-	(wire
-		(pts
 			(xy 269.24 27.94) (xy 266.7 27.94)
 		)
 		(stroke
@@ -8851,6 +7673,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.148 177.038) (xy 192.278 177.038)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcc0102f-4285-42c0-a73d-8b5e94131f60")
+	)
+	(wire
+		(pts
 			(xy 276.86 27.94) (xy 276.606 27.94)
 		)
 		(stroke
@@ -8858,16 +7690,6 @@
 			(type default)
 		)
 		(uuid "be84c19d-1c15-42ba-bcc3-6f26541df0ad")
-	)
-	(wire
-		(pts
-			(xy 256.54 189.23) (xy 256.54 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bef0148b-1b60-4d3b-8546-e3ddd85eca91")
 	)
 	(wire
 		(pts
@@ -8891,16 +7713,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 181.61) (xy 240.03 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4b8861e-8a97-434f-95de-a1d7d5bb1d2c")
-	)
-	(wire
-		(pts
 			(xy 276.098 320.04) (xy 261.62 320.04)
 		)
 		(stroke
@@ -8908,6 +7720,16 @@
 			(type default)
 		)
 		(uuid "c537a21a-fd56-4361-98c8-7a135430ad88")
+	)
+	(wire
+		(pts
+			(xy 95.504 173.99) (xy 105.664 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c591c130-546a-4efe-91cf-35d1d45c6989")
 	)
 	(wire
 		(pts
@@ -8928,16 +7750,6 @@
 			(type default)
 		)
 		(uuid "c637aa8d-e001-4683-a9e2-fac6a3254e7e")
-	)
-	(wire
-		(pts
-			(xy 256.54 163.83) (xy 256.54 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6a04ba9-f483-4c23-ba07-2e92035bc939")
 	)
 	(wire
 		(pts
@@ -8991,16 +7803,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 176.53) (xy 256.54 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9d56325-064c-4b16-9e74-9a8f0ab13097")
-	)
-	(wire
-		(pts
 			(xy 105.664 179.07) (xy 105.664 177.292)
 		)
 		(stroke
@@ -9028,16 +7830,6 @@
 			(type default)
 		)
 		(uuid "ccf779b5-8ab7-42af-9e4e-e74b73331c59")
-	)
-	(wire
-		(pts
-			(xy 256.54 195.58) (xy 280.67 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceac7d72-cbf6-49fd-96fa-13d97aa0eed7")
 	)
 	(wire
 		(pts
@@ -9081,16 +7873,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 170.18) (xy 256.54 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d38bef01-c53a-46e1-979b-b445f4afa3e7")
-	)
-	(wire
-		(pts
 			(xy 238.506 320.04) (xy 243.078 320.04)
 		)
 		(stroke
@@ -9108,16 +7890,6 @@
 			(type default)
 		)
 		(uuid "d675cffa-045f-47ed-868d-98f6396c527e")
-	)
-	(wire
-		(pts
-			(xy 256.54 175.26) (xy 280.67 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7c640a2-c3dc-4af8-b72d-c4ac0d398254")
 	)
 	(wire
 		(pts
@@ -9271,16 +8043,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 162.56) (xy 250.19 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9e1a383-4f38-4112-b0b4-fa1559df0f1f")
-	)
-	(wire
-		(pts
 			(xy 45.466 32.004) (xy 56.896 32.004)
 		)
 		(stroke
@@ -9361,16 +8123,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.148 169.418) (xy 192.278 169.418)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f157044b-d0fa-4570-93c2-5036298f6bea")
-	)
-	(wire
-		(pts
 			(xy 138.176 123.444) (xy 142.24 123.444)
 		)
 		(stroke
@@ -9398,26 +8150,6 @@
 			(type default)
 		)
 		(uuid "f246158a-2195-48e4-adbc-c3ee02e2b3a9")
-	)
-	(wire
-		(pts
-			(xy 240.03 162.56) (xy 240.03 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2f777c2-23e7-4709-b04b-c0731c8d3c1a")
-	)
-	(wire
-		(pts
-			(xy 256.54 168.91) (xy 256.54 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3cba7cc-b403-4df6-b8fc-cb00dc36ea84")
 	)
 	(wire
 		(pts
@@ -9451,16 +8183,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.148 174.498) (xy 192.278 174.498)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f93669f4-d526-432d-b8ae-26634d404806")
-	)
-	(wire
-		(pts
 			(xy 39.624 272.288) (xy 53.086 272.288)
 		)
 		(stroke
@@ -9468,16 +8190,6 @@
 			(type default)
 		)
 		(uuid "fc4f61ac-af55-4828-ace5-bff6626bf6c6")
-	)
-	(wire
-		(pts
-			(xy 256.54 162.56) (xy 280.67 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffcbaf13-5848-4726-94ef-f790afc73af1")
 	)
 	(label "SIM_CLK"
 		(at 21.082 279.908 0)
@@ -9539,7 +8251,7 @@
 		)
 		(uuid "18dd2a7f-cebe-4e50-9b13-9ed534a3e9e9")
 	)
-	(label "HOST.RI_INT"
+	(label "EG800K.UART1_Ri"
 		(at 168.148 171.958 0)
 		(effects
 			(font
@@ -9619,16 +8331,6 @@
 		)
 		(uuid "4596edbd-8ed3-4080-8e51-c4f6a76bfc02")
 	)
-	(label "EG800K.VDD_ETX"
-		(at 216.408 187.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4a9d2055-8b59-4d42-9ce0-bbce544a39cb")
-	)
 	(label "EG800K.VBAT"
 		(at 276.098 320.04 180)
 		(effects
@@ -9659,15 +8361,15 @@
 		)
 		(uuid "5ac5631c-770b-4282-8bad-d84199eb1d80")
 	)
-	(label "HOST_UART0_TXD"
-		(at 168.148 177.038 0)
+	(label "EG800K.VDD_ETX"
+		(at 168.148 169.418 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "5eff247f-61e7-4066-95b8-b64c4bd5b895")
+		(uuid "5ceddcee-a22d-4ba9-bd52-e36725f6158f")
 	)
 	(label "SIM_RST"
 		(at 21.082 276.098 0)
@@ -9678,16 +8380,6 @@
 			(justify left bottom)
 		)
 		(uuid "628e3bfc-9583-4b8b-bd86-807256b2cc96")
-	)
-	(label "HOST_UART0_TXD"
-		(at 280.67 182.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "69e9ea0b-026c-45a7-abb4-2a50fbd42ee1")
 	)
 	(label "EG800K.VBAT"
 		(at 275.59 295.402 180)
@@ -9719,16 +8411,6 @@
 		)
 		(uuid "79180d3a-b956-41df-acc4-52f35236faab")
 	)
-	(label "EG800K.UART1_Ri"
-		(at 216.408 195.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7c00e83c-4b86-49fe-a57b-4965cb8c7b45")
-	)
 	(label "EG800K.USB_D-"
 		(at 88.138 175.26 180)
 		(effects
@@ -9749,15 +8431,15 @@
 		)
 		(uuid "898a0c9c-c1e9-44c2-a0dd-84837acfc9a0")
 	)
-	(label "UART.VCC"
-		(at 280.67 187.96 180)
+	(label "EG800K.UART1_TXD"
+		(at 168.148 174.498 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "92bbce56-3d99-4bf9-bf47-dbbbb3d1c245")
+		(uuid "975caca8-2c29-4af5-8808-d1e9bfb11a54")
 	)
 	(label "HOST.EG800K.PWRKEY"
 		(at 168.148 179.578 0)
@@ -9769,16 +8451,6 @@
 		)
 		(uuid "98ec5cee-6b94-4470-b864-647c286d5752")
 	)
-	(label "UART.VCC"
-		(at 168.148 169.418 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a2099156-8d86-45e4-b8db-5688cf5ab751")
-	)
 	(label "EG800K.VBAT"
 		(at 170.434 29.972 180)
 		(effects
@@ -9789,15 +8461,15 @@
 		)
 		(uuid "a8d57e56-3d19-4ad0-83d9-4ed4696d77a9")
 	)
-	(label "EG800K.VDD_ETX"
-		(at 216.408 162.56 0)
+	(label "EG800K.UART1_RXD"
+		(at 168.148 177.038 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "aa7a210d-2de5-455d-b778-1b085444c1db")
+		(uuid "a8e70c51-b45c-49be-91a1-b1c9af99bca8")
 	)
 	(label "EG800K.USB_D+"
 		(at 170.434 45.212 180)
@@ -9819,16 +8491,6 @@
 		)
 		(uuid "ad2f2904-cc43-4869-82f9-d54cfc2f4e8e")
 	)
-	(label "EG800K.UART1_RXD"
-		(at 216.408 182.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b102e762-be90-4889-8136-557aa944afac")
-	)
 	(label "DC 3.8v supply"
 		(at 181.102 123.444 180)
 		(effects
@@ -9838,16 +8500,6 @@
 			(justify right bottom)
 		)
 		(uuid "b823c807-b12f-40c7-8719-5087347a9b3b")
-	)
-	(label "EG800K.VDD_ETX"
-		(at 216.408 175.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b8c9741b-8585-4692-800a-4edeafe0a38f")
 	)
 	(label "EG800K.UART1_RXD"
 		(at 83.82 73.152 0)
@@ -9869,16 +8521,6 @@
 		)
 		(uuid "bc41fe52-8276-4c6a-be3d-f3ae12101336")
 	)
-	(label "UART.VCC"
-		(at 280.67 162.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c0aeeb86-ee8e-4931-befe-ac80dbae824d")
-	)
 	(label "SIM_CLK"
 		(at 170.434 62.992 180)
 		(effects
@@ -9899,26 +8541,6 @@
 		)
 		(uuid "c9937033-fccb-4d09-9fb6-de9b269108f1")
 	)
-	(label "HOST.RI_INT"
-		(at 280.67 195.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d0e7c874-e403-493a-bf0b-fc763a6cb34c")
-	)
-	(label "HOST_UART0_RXD"
-		(at 168.148 174.498 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d429edf9-0f10-4a48-a23a-8637e91a0f5f")
-	)
 	(label "EG800K.UART1_Ri"
 		(at 83.82 60.452 0)
 		(effects
@@ -9928,16 +8550,6 @@
 			(justify left bottom)
 		)
 		(uuid "dc64d300-4cd7-4a4e-9f58-c7e1d0504ee9")
-	)
-	(label "HOST_UART0_RXD"
-		(at 280.67 170.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ded735a9-ea47-457c-9b5a-166516e536e9")
 	)
 	(label "HOST.EG800K.RESET"
 		(at 51.816 137.414 0)
@@ -10008,26 +8620,6 @@
 			(justify left bottom)
 		)
 		(uuid "f46638dc-338e-4e58-af88-5477c661b4a5")
-	)
-	(label "EG800K.UART1_TXD"
-		(at 216.408 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f5fc0f43-2e20-444f-9522-c077287699fb")
-	)
-	(label "UART.VCC"
-		(at 280.67 175.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f80327f3-9cfd-49b3-8b1f-99c86e9828ad")
 	)
 	(label "SIM_DATA"
 		(at 20.828 287.528 0)
@@ -11085,80 +9677,6 @@
 			(project "SIMCOM7080G"
 				(path "/1dd4973b-ee9b-455c-8ac7-91801682b6f0"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Filter:Choke_CommonMode_FerriteCore_1243")
-		(at 100.584 176.53 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1e419b0b-5561-4e9e-bbd2-de442e36e5a0")
-		(property "Reference" "FL2"
-			(at 100.838 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Choke_CommonMode_FerriteCore_1243"
-			(at 112.776 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "EasyEDA:FILTER-SMD_4P-L2.0-W1.2-BL_DLW21H"
-			(at 100.584 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.584 168.275 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic common-mode choke, ferrite core, 1243 pin order"
-			(at 96.52 175.768 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "9793e60c-1fcd-4c37-ab46-3ab008c89f68")
-		)
-		(pin "1"
-			(uuid "9bd04cbe-b2c3-4782-80d3-c6250da5cf18")
-		)
-		(pin "2"
-			(uuid "19161cec-11c9-4cf7-b178-330ce948fcac")
-		)
-		(pin "3"
-			(uuid "d43a7c74-6fc6-483f-b8a2-f0f8c7dfd084")
-		)
-		(instances
-			(project ""
-				(path "/1dd4973b-ee9b-455c-8ac7-91801682b6f0"
-					(reference "FL2")
 					(unit 1)
 				)
 			)
@@ -14006,327 +12524,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 256.54 191.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "59292783-0bf2-48d8-9ed8-b41c2e7e7e99")
-		(property "Reference" "R20"
-			(at 257.302 191.008 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 257.302 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 256.54 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 256.54 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 256.54 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part number" "CRCW060310K0FKEA"
-			(at 256.54 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0.0043"
-			(at 256.54 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manufacturer" "VISHAY"
-			(at 256.54 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "link" "https://www.lcsc.com/product-detail/C844918.html"
-			(at 256.54 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 256.54 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CREATOR" ""
-			(at 256.54 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 256.54 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 256.54 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 256.54 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 256.54 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 256.54 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 256.54 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 256.54 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" ""
-			(at 256.54 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 256.54 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 256.54 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 256.54 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" ""
-			(at 256.54 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 256.54 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 256.54 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 256.54 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 256.54 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 256.54 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" ""
-			(at 256.54 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VERIFIER" ""
-			(at 256.54 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "code" ""
-			(at 256.54 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternativa" "ARG03FTC1002"
-			(at 256.54 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "link alternativa" "https://www.lcsc.com/product-detail/C217687.html"
-			(at 256.54 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "63fc9812-fe34-4467-8b97-d764d2e820be")
-		)
-		(pin "2"
-			(uuid "2e6e75bc-7a41-482c-9b45-55a9333d328b")
-		)
-		(instances
-			(project "SIMCOM7080G"
-				(path "/1dd4973b-ee9b-455c-8ac7-91801682b6f0"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 244.856 132.08 180)
 		(unit 1)
@@ -14707,327 +12904,6 @@
 			(project "SIMCOM7080G"
 				(path "/1dd4973b-ee9b-455c-8ac7-91801682b6f0"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 235.458 123.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "637f5532-6d93-4af2-b9ed-9cea29b15814")
-		(property "Reference" "R15"
-			(at 236.474 120.904 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 236.22 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 235.458 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 235.458 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 235.458 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part number" "CRCW06030000Z0EA"
-			(at 235.458 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0.0026"
-			(at 235.458 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manufacturer" "VISHAY"
-			(at 235.458 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "link" "https://www.lcsc.com/product-detail/C844915.html"
-			(at 235.458 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 235.458 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CREATOR" ""
-			(at 235.458 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 235.458 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 235.458 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 235.458 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 235.458 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 235.458 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 235.458 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 235.458 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" ""
-			(at 235.458 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 235.458 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 235.458 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 235.458 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" ""
-			(at 235.458 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 235.458 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 235.458 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 235.458 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 235.458 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 235.458 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" ""
-			(at 235.458 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VERIFIER" ""
-			(at 235.458 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "code" ""
-			(at 235.458 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternativa" "CR-03FL7----0R"
-			(at 235.458 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "link alternativa" "https://www.lcsc.com/product-detail/C304185.html"
-			(at 235.458 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "03d779c7-c6d3-4f48-b505-9f7777298652")
-		)
-		(pin "2"
-			(uuid "8712613f-694b-403e-b3a7-e0b0f87abb43")
-		)
-		(instances
-			(project "GPS_proyect_SIM33ELA"
-				(path "/1dd4973b-ee9b-455c-8ac7-91801682b6f0"
-					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -16493,327 +14369,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 240.03 191.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "74c6791c-edcb-47af-9b01-66c1252995d7")
-		(property "Reference" "R14"
-			(at 240.792 191.008 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 240.792 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 240.03 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.03 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 240.03 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part number" "CRCW060310K0FKEA"
-			(at 240.03 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0.0043"
-			(at 240.03 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manufacturer" "VISHAY"
-			(at 240.03 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "link" "https://www.lcsc.com/product-detail/C844918.html"
-			(at 240.03 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 240.03 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CREATOR" ""
-			(at 240.03 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 240.03 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 240.03 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 240.03 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 240.03 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 240.03 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 240.03 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 240.03 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" ""
-			(at 240.03 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 240.03 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 240.03 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 240.03 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" ""
-			(at 240.03 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 240.03 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 240.03 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 240.03 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 240.03 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 240.03 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" ""
-			(at 240.03 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VERIFIER" ""
-			(at 240.03 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "code" ""
-			(at 240.03 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternativa" "ARG03FTC1002"
-			(at 240.03 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "link alternativa" "https://www.lcsc.com/product-detail/C217687.html"
-			(at 240.03 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fa9dce7a-529a-4c2c-aafa-a41370a627bf")
-		)
-		(pin "2"
-			(uuid "3877a6bc-a538-46ba-8573-d7e53f25d789")
-		)
-		(instances
-			(project "SIMCOM7080G"
-				(path "/1dd4973b-ee9b-455c-8ac7-91801682b6f0"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 225.552 143.764 0)
 		(unit 1)
@@ -17265,665 +14820,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 250.19 180.34 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7fb97157-1dd2-4870-9e98-55bdb44a970b")
-		(property "Reference" "Q7"
-			(at 253.238 178.308 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 249.936 210.566 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 248.285 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 246.38 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 250.19 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part number" "BSS138-7-F"
-			(at 250.19 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0.0286"
-			(at 250.19 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manufacturer" "diodes"
-			(at 250.19 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "link" "https://www.lcsc.com/product-detail/C40912.html?s_z=n_BSS138-7-F"
-			(at 250.19 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 250.19 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CREATOR" ""
-			(at 250.19 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 250.19 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 250.19 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 250.19 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 250.19 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 250.19 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 250.19 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 250.19 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" ""
-			(at 250.19 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 250.19 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 250.19 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 250.19 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" ""
-			(at 250.19 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 250.19 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 250.19 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 250.19 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 250.19 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 250.19 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" ""
-			(at 250.19 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VERIFIER" ""
-			(at 250.19 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "code" ""
-			(at 250.19 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternativa" "KUU BSS138"
-			(at 250.19 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "link alternativa" "https://www.lcsc.com/product-detail/C3015220.html?s_z=n_BSS138"
-			(at 250.19 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "90b8bc2f-bc53-43d2-a690-ec82adc46fc6")
-		)
-		(pin "3"
-			(uuid "389ee8e5-a703-4741-b010-466e2913aa9c")
-		)
-		(pin "1"
-			(uuid "02274034-bf00-46fe-a25b-e491a32330dd")
-		)
-		(instances
-			(project ""
-				(path "/1dd4973b-ee9b-455c-8ac7-91801682b6f0"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-			(project "Quectel-EG800KLA"
-				(path "/5c079f1a-cd4a-409f-8560-01a249af59f7"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 256.54 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "85cdb329-45c0-4661-8054-4bceffa4df2b")
-		(property "Reference" "R19"
-			(at 257.302 178.308 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 257.302 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 256.54 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 256.54 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 256.54 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part number" "CRCW060310K0FKEA"
-			(at 256.54 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0.0043"
-			(at 256.54 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manufacturer" "VISHAY"
-			(at 256.54 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "link" "https://www.lcsc.com/product-detail/C844918.html"
-			(at 256.54 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 256.54 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CREATOR" ""
-			(at 256.54 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 256.54 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 256.54 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 256.54 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 256.54 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 256.54 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 256.54 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 256.54 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" ""
-			(at 256.54 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 256.54 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 256.54 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 256.54 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" ""
-			(at 256.54 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 256.54 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 256.54 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 256.54 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 256.54 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 256.54 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" ""
-			(at 256.54 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VERIFIER" ""
-			(at 256.54 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "code" ""
-			(at 256.54 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternativa" "ARG03FTC1002"
-			(at 256.54 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "link alternativa" "https://www.lcsc.com/product-detail/C217687.html"
-			(at 256.54 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b931543-db5e-4296-877d-c231ff0a8823")
-		)
-		(pin "2"
-			(uuid "bdc19bfc-cf0b-43ad-8273-b520b9393a5a")
-		)
-		(instances
-			(project ""
-				(path "/1dd4973b-ee9b-455c-8ac7-91801682b6f0"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-			(project "Quectel-EG800KLA"
-				(path "/5c079f1a-cd4a-409f-8560-01a249af59f7"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 34.544 287.528 90)
 		(unit 1)
@@ -18246,663 +15142,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 250.19 193.04 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8a351462-a3d5-4cd8-9830-e8445ffa6f5a")
-		(property "Reference" "Q8"
-			(at 253.238 191.008 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 249.936 223.266 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 248.285 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 246.38 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 250.19 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part number" "BSS138-7-F"
-			(at 250.19 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0.0286"
-			(at 250.19 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manufacturer" "diodes"
-			(at 250.19 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "link" "https://www.lcsc.com/product-detail/C40912.html?s_z=n_BSS138-7-F"
-			(at 250.19 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 250.19 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CREATOR" ""
-			(at 250.19 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 250.19 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 250.19 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 250.19 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 250.19 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 250.19 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 250.19 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 250.19 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" ""
-			(at 250.19 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 250.19 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 250.19 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 250.19 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" ""
-			(at 250.19 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 250.19 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 250.19 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 250.19 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 250.19 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 250.19 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" ""
-			(at 250.19 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VERIFIER" ""
-			(at 250.19 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "code" ""
-			(at 250.19 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternativa" "KUU BSS138"
-			(at 250.19 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "link alternativa" "https://www.lcsc.com/product-detail/C3015220.html?s_z=n_BSS138"
-			(at 250.19 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2be1768e-d06d-46fa-9529-c30dc21443fb")
-		)
-		(pin "3"
-			(uuid "38b0fe91-28f9-4472-b2d4-3d7a9cb5c9ae")
-		)
-		(pin "1"
-			(uuid "a0d84c9c-755e-412a-a4ba-f73f6abf257f")
-		)
-		(instances
-			(project "SIMCOM7080G"
-				(path "/1dd4973b-ee9b-455c-8ac7-91801682b6f0"
-					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 250.19 167.64 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8e6c46d6-5669-4017-809c-c37ec0ba87c4")
-		(property "Reference" "Q6"
-			(at 253.238 165.608 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 250.19 199.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 248.285 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 246.38 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 250.19 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part number" "BSS138-7-F"
-			(at 250.19 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0.0286"
-			(at 250.19 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manufacturer" "diodes"
-			(at 250.19 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "link" "https://www.lcsc.com/product-detail/C40912.html?s_z=n_BSS138-7-F"
-			(at 250.19 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 250.19 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CREATOR" ""
-			(at 250.19 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 250.19 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 250.19 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 250.19 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 250.19 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 250.19 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 250.19 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 250.19 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" ""
-			(at 250.19 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 250.19 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 250.19 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 250.19 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" ""
-			(at 250.19 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 250.19 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 250.19 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 250.19 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 250.19 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 250.19 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" ""
-			(at 250.19 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VERIFIER" ""
-			(at 250.19 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "code" ""
-			(at 250.19 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternativa" "KUU BSS138"
-			(at 250.19 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "link alternativa" "https://www.lcsc.com/product-detail/C3015220.html?s_z=n_BSS138"
-			(at 250.19 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "13ad3915-0d21-47ba-9113-9a967ccc6c5a")
-		)
-		(pin "3"
-			(uuid "cb978ee5-a1bf-404e-8df3-90b6579b6dcc")
-		)
-		(pin "1"
-			(uuid "21394ac7-f5f2-4a9b-bde7-0d10445443a5")
-		)
-		(instances
-			(project ""
-				(path "/1dd4973b-ee9b-455c-8ac7-91801682b6f0"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-			(project "Quectel-EG800KLA"
-				(path "/5c079f1a-cd4a-409f-8560-01a249af59f7"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 48.514 298.196 180)
 		(unit 1)
@@ -19218,333 +15457,6 @@
 			(project "GPS_proyect_SIM33ELA"
 				(path "/1dd4973b-ee9b-455c-8ac7-91801682b6f0"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 240.03 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "905de243-78a3-402d-b1cc-f85a7daef315")
-		(property "Reference" "R12"
-			(at 240.792 165.608 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 240.792 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 240.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 240.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part number" "CRCW060310K0FKEA"
-			(at 240.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0.0043"
-			(at 240.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manufacturer" "VISHAY"
-			(at 240.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "link" "https://www.lcsc.com/product-detail/C844918.html"
-			(at 240.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 240.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CREATOR" ""
-			(at 240.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 240.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 240.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 240.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 240.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 240.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 240.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 240.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" ""
-			(at 240.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 240.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 240.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 240.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" ""
-			(at 240.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 240.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 240.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 240.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 240.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 240.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" ""
-			(at 240.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VERIFIER" ""
-			(at 240.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "code" ""
-			(at 240.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternativa" "ARG03FTC1002"
-			(at 240.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "link alternativa" "https://www.lcsc.com/product-detail/C217687.html"
-			(at 240.03 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "45d98a53-f243-4d45-a2ce-842efd1705a5")
-		)
-		(pin "2"
-			(uuid "e2e61aef-5ecd-4370-87c2-e5a92bfc7837")
-		)
-		(instances
-			(project ""
-				(path "/1dd4973b-ee9b-455c-8ac7-91801682b6f0"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-			(project "Quectel-EG800KLA"
-				(path "/5c079f1a-cd4a-409f-8560-01a249af59f7"
-					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -24313,333 +20225,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 240.03 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f25c005e-2654-4987-bdd0-75f806dbe5ef")
-		(property "Reference" "R13"
-			(at 240.792 178.308 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 240.792 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 240.03 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.03 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 240.03 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part number" "CRCW060310K0FKEA"
-			(at 240.03 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0.0043"
-			(at 240.03 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manufacturer" "VISHAY"
-			(at 240.03 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "link" "https://www.lcsc.com/product-detail/C844918.html"
-			(at 240.03 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 240.03 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CREATOR" ""
-			(at 240.03 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 240.03 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 240.03 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 240.03 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 240.03 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 240.03 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 240.03 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 240.03 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" ""
-			(at 240.03 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 240.03 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 240.03 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 240.03 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" ""
-			(at 240.03 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 240.03 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 240.03 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 240.03 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 240.03 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 240.03 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" ""
-			(at 240.03 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VERIFIER" ""
-			(at 240.03 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "code" ""
-			(at 240.03 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternativa" "ARG03FTC1002"
-			(at 240.03 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "link alternativa" "https://www.lcsc.com/product-detail/C217687.html"
-			(at 240.03 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0815d5bf-eef0-4d2f-ad8f-f78e5d613169")
-		)
-		(pin "2"
-			(uuid "8be37989-e90a-4f81-bb76-d870628b54cf")
-		)
-		(instances
-			(project ""
-				(path "/1dd4973b-ee9b-455c-8ac7-91801682b6f0"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-			(project "Quectel-EG800KLA"
-				(path "/5c079f1a-cd4a-409f-8560-01a249af59f7"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Snapeda:EG800KEULC-I03-SNNSA")
 		(at 274.32 51.816 270)
 		(unit 2)
@@ -25278,333 +20863,6 @@
 				(path "/1dd4973b-ee9b-455c-8ac7-91801682b6f0"
 					(reference "U4")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 256.54 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "feabe8d9-af2b-4c0f-855d-3b6afea41a28")
-		(property "Reference" "R18"
-			(at 257.302 165.608 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 257.302 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 256.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 256.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 256.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part number" "CRCW060310K0FKEA"
-			(at 256.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "price" "0.0043"
-			(at 256.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manufacturer" "VISHAY"
-			(at 256.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "link" "https://www.lcsc.com/product-detail/C844918.html"
-			(at 256.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 256.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CREATOR" ""
-			(at 256.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 256.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 256.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 256.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 256.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 256.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 256.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 256.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" ""
-			(at 256.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 256.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 256.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 256.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" ""
-			(at 256.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 256.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 256.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 256.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 256.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" ""
-			(at 256.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" ""
-			(at 256.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VERIFIER" ""
-			(at 256.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "code" ""
-			(at 256.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alternativa" "ARG03FTC1002"
-			(at 256.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "link alternativa" "https://www.lcsc.com/product-detail/C217687.html"
-			(at 256.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "763e6f56-8fb8-4695-9eb6-051efbb25def")
-		)
-		(pin "2"
-			(uuid "b035c9d9-ba29-4c41-bf9e-c84ddeae1a31")
-		)
-		(instances
-			(project ""
-				(path "/1dd4973b-ee9b-455c-8ac7-91801682b6f0"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-			(project "Quectel-EG800KLA"
-				(path "/5c079f1a-cd4a-409f-8560-01a249af59f7"
-					(reference "R10")
-					(unit 1)
 				)
 			)
 		)
