@@ -1,4 +1,4 @@
-26580752832483491
+26584313175650798
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59913,6 +59913,13 @@ ANT-SMD_L10.0-W3.0
 2
 2
 EasyEDA
+CAP-SMD_BD8.0-L8.3-W8.3-FD
+
+
+0
+2
+2
+EasyEDA
 CAP-SMD_L3.5-W2.8-FD
 
 
@@ -59936,6 +59943,13 @@ CAP-SMD_L7.3-W4.3-R-RD
 EasyEDA
 CAP-TH_BD6.3-P2.50-D1.0-FD
 
+
+0
+2
+2
+EasyEDA
+CASE-B_3528
+220uF (227) ±20% 6.3V
 
 0
 2

@@ -318,7 +318,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x09_Pin"
+		(symbol "Connector:Conn_01x10_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -334,8 +334,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x09_Pin"
-				(at 0 -12.7 0)
+			(property "Value" "Conn_01x10_Pin"
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -360,7 +360,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x09, script generated"
+			(property "Description" "Generic connector, single row, 01x10, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -395,7 +395,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x09_Pin_1_1"
+			(symbol "Conn_01x10_Pin_1_1"
 				(rectangle
 					(start 0.8636 10.287)
 					(end 0 10.033)
@@ -487,6 +487,17 @@
 				(rectangle
 					(start 0.8636 -10.033)
 					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -12.573)
+					(end 0 -12.827)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -594,6 +605,18 @@
 				(polyline
 					(pts
 						(xy 1.27 -10.16) (xy 0.8636 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -12.7) (xy 0.8636 -12.7)
 					)
 					(stroke
 						(width 0.1524)
@@ -758,6 +781,24 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -12.7 180)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1512,6 +1553,382 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EasyEDA:TAJD337K010RNJ"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TAJD337K010RNJ"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:CASE-D_7343"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Tantalum-Capacitors_AVX_TAJD337K010RNJ_330uF-337-10-10V_C7226.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "330uF (337) ±10% 10V"
+				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Kyocera AVX"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "TAJD337K010RNJ"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C7226"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Tantalum Capacitors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TAJD337K010RNJ_0_1"
+				(polyline
+					(pts
+						(xy -0.51 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 -2.03) (xy -0.51 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 -2.03) (xy 0.51 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.03 -1.52) (xy 2.03 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.02) (xy 1.52 -1.02)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EasyEDA:VT1A102M0810"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VT1A102M0810"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:CAP-SMD_BD8.0-L8.3-W8.3-FD"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Others_ROQANG-VT1A102M0810_C311227.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "ROQANG(容强)"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "VT1A102M0810"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C311227"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Aluminum Electrolytic Capacitors - SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VT1A102M0810_0_1"
+				(rectangle
+					(start -2.03 -2.01)
+					(end -1.02 -2.03)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.52 -1.52)
+					(end -1.5 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.76 -2.54) (xy -0.76 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.25 0)
+					(mid 0.4213 1.3348)
+					(end 1.02 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.02 -2.54)
+					(mid 0.4306 -1.332)
+					(end 0.25 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 180)
+					(length 3.81)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 0)
+					(length 5.08)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6875,10 +7292,6 @@
 		(uuid "cb949277-d480-4f8c-a6a0-306f0b49783d")
 	)
 	(no_connect
-		(at 105.664 70.612)
-		(uuid "d6d8fbbc-21b5-4441-9b57-5cab527d28ef")
-	)
-	(no_connect
 		(at 105.664 65.532)
 		(uuid "ee45815b-51df-4fb8-948d-22bdd6930e54")
 	)
@@ -7208,6 +7621,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.148 184.658) (xy 192.278 184.658)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fd32ac3-a439-4914-9b1e-4ff1ba6cb3b7")
+	)
+	(wire
+		(pts
 			(xy 88.138 175.26) (xy 95.504 175.26)
 		)
 		(stroke
@@ -7285,16 +7708,6 @@
 			(type default)
 		)
 		(uuid "268fb282-35b2-4386-8bbf-14ffc3eef6cd")
-	)
-	(wire
-		(pts
-			(xy 188.976 187.198) (xy 188.976 188.468)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27a9da7c-5def-4685-a78a-3b2680cc87b3")
 	)
 	(wire
 		(pts
@@ -7458,16 +7871,6 @@
 	)
 	(wire
 		(pts
-			(xy 164.846 184.658) (xy 192.278 184.658)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33ba8d5d-d489-406f-9338-b5a1b524ce62")
-	)
-	(wire
-		(pts
 			(xy 256.54 27.94) (xy 256.54 28.956)
 		)
 		(stroke
@@ -7545,6 +7948,16 @@
 			(type default)
 		)
 		(uuid "3be1baae-dd33-41b8-b573-0c80c89db33d")
+	)
+	(wire
+		(pts
+			(xy 192.278 189.738) (xy 188.976 189.738)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c21e309-2de9-4b62-b912-1f1cbbdb77a9")
 	)
 	(wire
 		(pts
@@ -8048,6 +8461,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 70.612) (xy 105.664 70.612)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7244898e-9054-4593-acfb-c0a8f2df8c7f")
+	)
+	(wire
+		(pts
 			(xy 162.814 119.126) (xy 165.608 119.126)
 		)
 		(stroke
@@ -8438,6 +8861,16 @@
 	)
 	(wire
 		(pts
+			(xy 188.976 189.738) (xy 188.976 191.008)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af79dcc4-67da-431b-9a78-17beeb743a38")
+	)
+	(wire
+		(pts
 			(xy 222.25 123.19) (xy 222.25 127.508)
 		)
 		(stroke
@@ -8545,6 +8978,16 @@
 			(type default)
 		)
 		(uuid "b9c144e8-46df-4898-ba1a-6119dc1f6145")
+	)
+	(wire
+		(pts
+			(xy 168.148 187.198) (xy 192.278 187.198)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bae55a56-9058-44c4-b205-e971cbf50e72")
 	)
 	(wire
 		(pts
@@ -8825,16 +9268,6 @@
 			(type default)
 		)
 		(uuid "d8ccdc87-4178-415b-97b1-dde02aa394c1")
-	)
-	(wire
-		(pts
-			(xy 192.278 187.198) (xy 188.976 187.198)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9b6e2d1-ee24-42a2-9202-eee4100667d6")
 	)
 	(wire
 		(pts
@@ -9166,6 +9599,16 @@
 		)
 		(uuid "02f617df-83c7-475e-8c99-83656b705247")
 	)
+	(label "EG800K.MAIN_DTR"
+		(at 168.148 184.658 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "051b2181-e289-4041-9f8f-23de8ca4a45a")
+	)
 	(label "USB_N"
 		(at 94.996 175.26 180)
 		(effects
@@ -9276,6 +9719,16 @@
 		)
 		(uuid "330576b3-88d0-4bf3-87e9-9a2e5dbc1da7")
 	)
+	(label "DC 3.8v supply"
+		(at 168.148 187.198 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3724f689-89d9-4e51-9263-70e7483144d1")
+	)
 	(label "SIM_DATA"
 		(at 170.434 57.912 180)
 		(effects
@@ -9295,16 +9748,6 @@
 			(justify right bottom)
 		)
 		(uuid "4596edbd-8ed3-4080-8e51-c4f6a76bfc02")
-	)
-	(label "BAT.out"
-		(at 168.148 184.658 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4605e387-fa5b-49fa-aeb4-2113a8dda5fd")
 	)
 	(label "EG800K.VBAT"
 		(at 276.098 320.04 180)
@@ -9396,16 +9839,6 @@
 		)
 		(uuid "79180d3a-b956-41df-acc4-52f35236faab")
 	)
-	(label "B+"
-		(at 164.846 184.658 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7bff0682-6672-473a-a182-ea0e9ee28059")
-	)
 	(label "EG800K.USB_D-"
 		(at 88.138 175.26 180)
 		(effects
@@ -9415,6 +9848,16 @@
 			(justify right bottom)
 		)
 		(uuid "81d69961-d5e0-420e-a1b3-8f9417cfe6c3")
+	)
+	(label "EG800K.MAIN_DTR"
+		(at 83.82 70.612 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88f85776-8ba2-4b07-ba3a-09d3fb23ae36")
 	)
 	(label "EG800K.RESET"
 		(at 82.804 40.132 0)
@@ -9635,6 +10078,100 @@
 			(justify left bottom)
 		)
 		(uuid "ff5a2a61-fb85-4c0e-b8ea-fabe73b94c73")
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x10_Pin")
+		(at 197.358 179.578 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "001ea19f-bcea-4917-b2ab-3d43cb139ce7")
+		(property "Reference" "J4"
+			(at 199.136 177.0379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x11_Pin"
+			(at 199.136 179.5779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
+			(at 197.358 179.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 197.358 179.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x10, script generated"
+			(at 197.358 179.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f3776978-5624-440d-913c-cf987bda205e")
+		)
+		(pin "5"
+			(uuid "e54232c3-9866-4de9-aacf-005bee8b8bcd")
+		)
+		(pin "1"
+			(uuid "308660a7-36f0-4b5f-a1d2-cd2cf08b2e9a")
+		)
+		(pin "2"
+			(uuid "c10ceab9-314a-4268-a338-78878227133f")
+		)
+		(pin "4"
+			(uuid "daa86b29-35e1-4fae-b2d1-5f0dfca67c6a")
+		)
+		(pin "6"
+			(uuid "eec059bd-26cb-4c8e-8a89-5c5957e81017")
+		)
+		(pin "10"
+			(uuid "962fc196-3ad0-415b-9822-b6dbe2b7c3c4")
+		)
+		(pin "9"
+			(uuid "3ed4e8a3-081c-4082-8443-474f10d13118")
+		)
+		(pin "7"
+			(uuid "d2d2ce30-d686-4ba6-9649-c2bd48d8d1f1")
+		)
+		(pin "8"
+			(uuid "ed3750b4-d142-488d-b50d-b51d5d589ee4")
+		)
+		(instances
+			(project ""
+				(path "/1dd4973b-ee9b-455c-8ac7-91801682b6f0"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Snapeda:KUU SS36")
@@ -14402,7 +14939,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 188.976 188.468 0)
+		(at 188.976 191.008 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14410,7 +14947,7 @@
 		(dnp no)
 		(uuid "45267a59-be67-4d40-ab15-65acdafc9908")
 		(property "Reference" "#PWR021"
-			(at 188.976 194.818 0)
+			(at 188.976 197.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14419,7 +14956,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.166 189.484 0)
+			(at 185.166 192.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14427,7 +14964,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 188.976 188.468 0)
+			(at 188.976 191.008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14436,7 +14973,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 188.976 188.468 0)
+			(at 188.976 191.008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14445,7 +14982,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 188.976 188.468 0)
+			(at 188.976 191.008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18180,6 +18717,101 @@
 		)
 	)
 	(symbol
+		(lib_id "EasyEDA:VT1A102M0810")
+		(at 234.188 162.306 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90e5a525-9b4f-4b39-993a-33316b7de154")
+		(property "Reference" "C17"
+			(at 234.823 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VT1A102M0810"
+			(at 234.823 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:CAP-SMD_BD8.0-L8.3-W8.3-FD"
+			(at 234.188 169.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_ROQANG-VT1A102M0810_C311227.html"
+			(at 234.188 172.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.188 162.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ROQANG(容强)"
+			(at 234.188 175.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "VT1A102M0810"
+			(at 234.188 177.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C311227"
+			(at 234.188 180.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "32aaeecd-31f2-4c0e-b3cf-847e8d1ba7eb")
+		)
+		(pin "1"
+			(uuid "a29f95ad-a87e-477d-a60c-fbae00872572")
+		)
+		(instances
+			(project ""
+				(path "/1dd4973b-ee9b-455c-8ac7-91801682b6f0"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 266.7 132.08 180)
 		(unit 1)
@@ -19281,97 +19913,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x09_Pin")
-		(at 197.358 177.038 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a01cccb4-ca5b-4aea-a5f2-ae57355f95bb")
-		(property "Reference" "J3"
-			(at 198.12 175.7679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x09_Pin"
-			(at 198.12 178.3079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
-			(at 197.358 177.038 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 197.358 177.038 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x09, script generated"
-			(at 197.358 177.038 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "3aa52435-d828-4c69-887a-fde0392c2b88")
-		)
-		(pin "2"
-			(uuid "e1aadfe5-f028-40bb-8389-778778a9f662")
-		)
-		(pin "8"
-			(uuid "ada3f3c0-b6d3-46ef-b342-9c84329c0149")
-		)
-		(pin "3"
-			(uuid "bac45fff-ab73-4bd4-a892-07e1cb6b9671")
-		)
-		(pin "7"
-			(uuid "b2aa02c2-cb48-4270-8ce6-6b8d5a7c025a")
-		)
-		(pin "1"
-			(uuid "793622ec-97eb-42bc-99e1-930c01d3c1c7")
-		)
-		(pin "4"
-			(uuid "29c8deee-b03d-439b-94e3-ad3a3a57eb19")
-		)
-		(pin "5"
-			(uuid "6c0cf3cc-68ba-4056-bcab-031b34982e82")
-		)
-		(pin "9"
-			(uuid "ca6a03b4-6672-4700-9fbb-2144c27b0360")
-		)
-		(instances
-			(project ""
-				(path "/1dd4973b-ee9b-455c-8ac7-91801682b6f0"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 43.942 298.196 180)
 		(unit 1)
@@ -20333,6 +20874,101 @@
 			(project ""
 				(path "/1dd4973b-ee9b-455c-8ac7-91801682b6f0"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:TAJD337K010RNJ")
+		(at 236.474 148.844 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a652732c-4037-42a6-a4a4-61360785da49")
+		(property "Reference" "C16"
+			(at 237.109 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TAJD337K010RNJ"
+			(at 237.109 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:CASE-D_7343"
+			(at 236.474 156.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tantalum-Capacitors_AVX_TAJD337K010RNJ_330uF-337-10-10V_C7226.html"
+			(at 236.474 159.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "330uF (337) ±10% 10V"
+			(at 236.474 171.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kyocera AVX"
+			(at 236.474 161.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TAJD337K010RNJ"
+			(at 236.474 164.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7226"
+			(at 236.474 166.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49cbcade-2253-4f12-b036-fced8ba3c2c2")
+		)
+		(pin "2"
+			(uuid "d75184d4-dc2d-4939-a01a-35cf59805cdd")
+		)
+		(instances
+			(project ""
+				(path "/1dd4973b-ee9b-455c-8ac7-91801682b6f0"
+					(reference "C16")
 					(unit 1)
 				)
 			)
