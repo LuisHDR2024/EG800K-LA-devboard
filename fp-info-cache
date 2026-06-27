@@ -1,4 +1,4 @@
-26623494666346084
+26625276681405146
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60003,6 +60003,13 @@ CONN-TH_530480210
 0
 2
 2
+EasyEDA
+CRYSTAL-SMD_4P-L3.2-W2.5-BL
+
+
+0
+4
+4
 EasyEDA
 CRYSTAL-SMD_L3.2-W1.5
 

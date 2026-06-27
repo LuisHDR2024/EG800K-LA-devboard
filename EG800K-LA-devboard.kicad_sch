@@ -1651,6 +1651,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "R_Small_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_1_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Snapeda:EG800KEULC-I03-SNNSA"
 			(pin_names
 				(offset 1.016)
@@ -6403,7 +6528,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.664 174.752) (xy 119.126 174.752)
+			(xy 96.012 174.752) (xy 119.126 174.752)
 		)
 		(stroke
 			(width 0)
@@ -6513,7 +6638,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.138 175.26) (xy 95.504 175.26)
+			(xy 78.486 175.26) (xy 85.852 175.26)
 		)
 		(stroke
 			(width 0)
@@ -6633,7 +6758,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.504 177.8) (xy 95.504 179.07)
+			(xy 85.852 177.8) (xy 85.852 179.07)
 		)
 		(stroke
 			(width 0)
@@ -6973,7 +7098,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.138 177.8) (xy 95.504 177.8)
+			(xy 78.486 177.8) (xy 85.852 177.8)
 		)
 		(stroke
 			(width 0)
@@ -7143,7 +7268,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.504 175.26) (xy 95.504 173.99)
+			(xy 85.852 175.26) (xy 85.852 173.99)
 		)
 		(stroke
 			(width 0)
@@ -7223,7 +7348,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.504 179.07) (xy 105.664 179.07)
+			(xy 85.852 179.07) (xy 88.392 179.07)
 		)
 		(stroke
 			(width 0)
@@ -7450,6 +7575,16 @@
 			(type default)
 		)
 		(uuid "8649bfaa-f166-47a4-91f6-9f23ccd2fa6b")
+	)
+	(wire
+		(pts
+			(xy 93.218 173.99) (xy 96.012 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "866c0d1c-6756-4388-aac8-4d5d7e2433e6")
 	)
 	(wire
 		(pts
@@ -7873,7 +8008,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.504 173.99) (xy 105.664 173.99)
+			(xy 85.852 173.99) (xy 88.138 173.99)
 		)
 		(stroke
 			(width 0)
@@ -7953,7 +8088,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.664 179.07) (xy 105.664 177.292)
+			(xy 96.012 179.07) (xy 96.012 177.292)
 		)
 		(stroke
 			(width 0)
@@ -8003,7 +8138,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.664 173.99) (xy 105.664 174.752)
+			(xy 96.012 173.99) (xy 96.012 174.752)
 		)
 		(stroke
 			(width 0)
@@ -8133,7 +8268,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.664 177.292) (xy 119.126 177.292)
+			(xy 96.012 177.292) (xy 119.126 177.292)
 		)
 		(stroke
 			(width 0)
@@ -8333,6 +8468,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.472 179.07) (xy 96.012 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa940a98-005b-4332-9770-02bcd3cc0765")
+	)
+	(wire
+		(pts
 			(xy 39.624 272.288) (xy 53.086 272.288)
 		)
 		(stroke
@@ -8362,7 +8507,7 @@
 		(uuid "051b2181-e289-4041-9f8f-23de8ca4a45a")
 	)
 	(label "USB_N"
-		(at 94.996 175.26 180)
+		(at 85.344 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8442,7 +8587,7 @@
 		(uuid "274ebe4d-804e-4b1b-b2a5-2a41e703e914")
 	)
 	(label "USB_P"
-		(at 94.996 177.8 180)
+		(at 85.344 177.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8562,7 +8707,7 @@
 		(uuid "707b9277-7c72-4bfd-b015-94e592303140")
 	)
 	(label "EG800K.USB_D+"
-		(at 88.138 177.8 180)
+		(at 78.486 177.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8582,7 +8727,7 @@
 		(uuid "79180d3a-b956-41df-acc4-52f35236faab")
 	)
 	(label "EG800K.USB_D-"
-		(at 88.138 175.26 180)
+		(at 78.486 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18998,6 +19143,142 @@
 			(project "SIMCOM7080G"
 				(path "/1dd4973b-ee9b-455c-8ac7-91801682b6f0"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 90.932 179.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c92f0b70-13e8-45d9-ae98-60d416720128")
+		(property "Reference" "R6"
+			(at 90.932 179.07 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 90.932 177.546 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 90.932 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.932 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 90.932 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81138745-80ed-4aeb-824b-6bde6548bf03")
+		)
+		(pin "2"
+			(uuid "85633c00-afdd-4b98-bf11-7052f62bf32d")
+		)
+		(instances
+			(project "EG800K-LA-devboard"
+				(path "/1dd4973b-ee9b-455c-8ac7-91801682b6f0"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 90.678 173.99 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4aba176-ffe7-4a5f-8e61-77a3bc923af8")
+		(property "Reference" "R5"
+			(at 90.678 173.99 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 90.678 172.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 90.678 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.678 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 90.678 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75210125-a5e6-42ad-bb23-0610e72d9f46")
+		)
+		(pin "2"
+			(uuid "74bdcc77-f277-4de0-b5ba-b61648286878")
+		)
+		(instances
+			(project ""
+				(path "/1dd4973b-ee9b-455c-8ac7-91801682b6f0"
+					(reference "R5")
 					(unit 1)
 				)
 			)
